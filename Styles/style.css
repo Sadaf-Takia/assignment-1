@@ -246,6 +246,7 @@ gap: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 116px;
 }
 .main-last h1{
     font-size: 97px;
@@ -257,6 +258,7 @@ gap: 20px;
     gap: 5px;
     background-color: bisque;
 height: 40px;
+padding: 10px 10px;
 width: 300px;
 border-radius: 10px;
 }
@@ -264,5 +266,74 @@ border-radius: 10px;
     height: 90px;
         width: 300px;
         border-radius: 10px;
+        padding: 10px 10px;
         background-color: bisque;
+}
+.footer ul li{
+list-style: none;
+
+}
+.footer a{
+    text-decoration: none;
+    color: #2524328f;
+        font-weight: 10;
+        font-size: 24;
+}
+.footer ul{
+    display: flex;
+
+   gap: 20px;
+    justify-content:space-between;
+    align-items: center;
+}
+.foott{
+    background-color: aliceblue;
+}
+.foot{
+    margin-top: 116px;
+    margin-left: 336px ;
+    margin-right:336px;
+
+   padding-bottom: 30px;
+   align-items: center;
+}
+.foot-body h1{
+    padding-top: 30px;
+text-align: center;
+font-weight: bold;
+font-size: 70px;
+color: #4E47FF;
+}
+.foot-body p{
+text-align: center;
+}
+.foot-body h1,p{
+    margin: 0;
+}
+
+.button3 {
+    width: 300px;
+    height: 48px;
+    background-color:rgba(165, 42, 42, 0.893);
+    color: white;
+    border-radius: 10px;
+    padding: 36px 12;
+    font-size: 16;
+    border: none;
+    font-weight: bold;
+    
+
+}
+ .button3:hover{
+    cursor: pointer;
+    background-color: #54344580;
+}
+
+.button2:hover {
+    cursor: pointer;
+    background-color: #cd8f8f;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #cd8f8f;
 }
