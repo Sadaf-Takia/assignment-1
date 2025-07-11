@@ -12,7 +12,10 @@ nav ul {
 
     font-style: normal;
 }
-
+main {
+    max-width: 1140px;
+    margin: 116px 159px 116px 141px;
+}
 
 nav ul li {
     list-style: none;
@@ -28,6 +31,8 @@ nav a {
     font-optical-sizing: auto;
 
     font-style: normal;
+
+    background-color: aliceblue;
 }
 
 .nav-text {
@@ -55,6 +60,7 @@ margin-top: 152px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 h4{
     margin: 0;
@@ -67,6 +73,43 @@ h4{
 
 .button {
     width: 132px;
+    height: 48px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    padding: 36px 12;
+    font-size: 16;
+    border: none;
+    font-weight: bold;
+}
+
+.headline-font{
+    font-size: 42;
+    font-weight: bold;
+    color: #252432;
+}
+.action-font{
+    color: #252432;
+    font-weight: 10;
+    font-size: 24;
+}
+.action-body{
+   
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   
+}
+.action{
+    gap: 23px;
+}
+.img img{
+    border-radius:48px ;
+    max-height: 328px;
+    width: 403px;
+}
+.button2 {
+    width: 229px;
     height: 48px;
     background-color: #4E47FF;
     color: white;
