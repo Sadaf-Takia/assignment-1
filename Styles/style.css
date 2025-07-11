@@ -220,3 +220,49 @@ gap: 20px;
     margin-top: 116px;
 
 }
+
+.focus-container{
+    background-color: rgba(192, 223, 223, 0.491);
+    padding: 71px 150px;
+    margin-top: 116px;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    border-radius: 18px;
+    flex-direction: column;
+}
+.focus-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.image-focus img{
+    border-radius: 48px;
+        max-height: 398px;
+        width: 550px;
+}
+.main-last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-last h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+.form-gap{
+    display: flex;
+    align-items:center;
+    gap: 5px;
+    background-color: bisque;
+height: 40px;
+width: 300px;
+border-radius: 10px;
+}
+.form-gap1{
+    height: 90px;
+        width: 300px;
+        border-radius: 10px;
+        background-color: bisque;
+}
