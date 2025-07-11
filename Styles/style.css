@@ -1,0 +1,39 @@
+nav ul{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0px 150px;
+}
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal; }
+
+
+nav ul li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}
+
+.nav-text{
+    color: black;
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: 800;
+}
+
+.button{
+width: 132px;
+height: 48px;
+background-color: #4E47FF;
+color: white;
+border-radius: 10px;
+padding: 36px 12;
+font-size: 16;
+border: none;
+font-weight: bold;
+}
